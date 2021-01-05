@@ -12,7 +12,7 @@ Student.prototype._arrIndexCheck = function (arr) {
 }
 
 Student.prototype._getAverage = function (arr) {
-    return arr.reduce( (acc, el) => acc + el ) / arr.length
+    return arr.reduce( (acc, el) => acc + el ) / arr.length;
 }
 
 Student.prototype.getAge = function () {
