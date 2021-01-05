@@ -7,7 +7,6 @@ function Student(name, surname, dateOfBirth) {
     this.dateOfBirth = dateOfBirth;
 }
 
-// 2 приватных метода сделал, чтобы не дублировать код
 Student.prototype._arrIndexCheck = function (arr) {
     return arr.findIndex( (el) => el === undefined);
 }
